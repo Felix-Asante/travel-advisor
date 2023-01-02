@@ -12,7 +12,7 @@ export default function Search({ onPlaceSelect }) {
 				fetchDetails={true}
 				GooglePlacesDetailsQuery={{ fields: "geometry" }}
 				query={{
-					key: "AIzaSyAND1byc4c4TEib5iVL0Xn9QVY3Hu-dGrM",
+					key: "GOOGLE_MAP_API_KEY",
 					language: "en",
 				}}
 			/>
